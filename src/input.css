@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-card {
+  @apply bg-darkBlueGray p-1 rounded-md shadow-md flex items-center justify-center w-12 h-10;
+}
