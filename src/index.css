@@ -446,24 +446,6 @@ body {
   position: relative;
 }
 
-.nav-btn::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -4px;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%));
-  border-radius: 2px;
-  transition: width 0.25s ease, left 0.25s ease;
-}
-
-.nav-btn[data-active="true"]::after,
-.nav-btn:hover::after {
-  width: 60%;
-  left: 20%;
-}
-
 /* ===== Reduced motion ===== */
 @media (prefers-reduced-motion: reduce) {
 
