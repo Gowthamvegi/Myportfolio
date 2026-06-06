@@ -4,7 +4,7 @@ export default function Sidebar() {
     const [showContacts, setShowContacts] = useState(false);
 
     return (
-        <aside className="relative w-full lg:w-[320px] lg:shrink-0 bg-bg-card border border-border rounded-[20px] px-6 py-8 sm:px-8 sm:py-10 lg:px-8 lg:py-12 shadow-[-4px_8px_24px_hsla(0,0%,0%,0.25)] lg:shadow-[0_24px_80px_hsla(0,0%,0%,0.25)] lg:sticky lg:top-[60px] lg:z-[1]">
+        <aside className="relative w-full lg:w-[320px] lg:shrink-0 bg-bg-card border border-border rounded-[20px] px-6 py-1 sm:px-8 sm:py-10 lg:px-8 lg:py-12 shadow-[-4px_8px_24px_hsla(0,0%,0%,0.25)] lg:shadow-[0_24px_80px_hsla(0,0%,0%,0.25)] lg:sticky lg:top-[60px] lg:z-[1]">
             {/* Profile — row on mobile, stacked on desktop */}
             <div className="flex flex-row lg:flex-col items-center gap-4 sm:gap-5 lg:gap-4 lg:text-center">
                 <div className="rounded-[18px] sm:rounded-[24px] lg:rounded-[30px] overflow-hidden bg-gradient-to-br from-[hsl(240,1%,25%)] to-[hsl(0,0%,19%)] shrink-0 ring-1 ring-border">

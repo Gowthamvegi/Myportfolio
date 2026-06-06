@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 
-export type PageKey = 'About' | 'Resume' | 'Portfolio';
+// 'Portfolio' removed — use 'Contact' instead
+export type PageKey = 'About' | 'Resume' | 'Contact';
 
-const VALID: PageKey[] = ['About', 'Resume', 'Portfolio'];
+const VALID: PageKey[] = ['About', 'Resume', 'Contact'];
 
 function parseHash(): PageKey {
     const raw = window.location.hash.replace(/^#\/?/, '').toLowerCase();

@@ -15,15 +15,16 @@
 }
 
 /* ===== Reset ===== */
-/* Tailwind v4 preflight already handles box-sizing, margin, and padding resets.
-   We only keep box-sizing here as a safety net — do NOT reset padding/margin
-   on * because it overrides Tailwind utility classes (py-8, px-6, etc). */
+/* ===== Reset =====
+   Tailwind v4 preflight handles margin/padding resets on specific elements.
+   We only set box-sizing here. Do NOT add margin:0 or padding:0 on * —
+   it will override Tailwind utility classes (p-6, py-8, etc). */
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 3px;
   box-sizing: border-box;
+  margin: 0px;
+  padding: 3px;
 }
 
 a {

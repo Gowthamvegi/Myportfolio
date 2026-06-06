@@ -18,26 +18,26 @@ export default function Resume() {
 
                 <ol className="text-[14px] sm:text-[15px] list-none timeline-list">
                     <li className="timeline-item">
-                        <h4 className="text-text-white text-[15px] sm:text-[16px] font-medium leading-[1.3] mb-2">Backend Developer</h4>
-                        <span className="text-accent-dark text-[13px] sm:text-[14px] font-normal leading-[1.6] block mb-3">Axoidan · Present</span>
+                        <h4 className="text-text-white text-[15px] sm:text-[16px] font-medium leading-[1.3] mb-2">Software Engineer — Axoidan</h4>
+                        <span className="text-accent-dark text-[13px] sm:text-[14px] font-normal leading-[1.6] block mb-3">Present</span>
                         <ul className="space-y-2.5">
                             <li className="text-text-light text-[14px] sm:text-[15px] font-light leading-[1.75]">
                                 Architected international cross-trade logistics platform handling consignment creation, multi-party documentation, and communication workflows for global trade partners.
                             </li>
                             <li className="text-text-light text-[14px] sm:text-[15px] font-light leading-[1.75]">
-                                Built workflow tracker + schema automation (PostgreSQL, schedulers) that advanced shipment stages on document upload — reducing 60% manual tracking.
+                                Built workflow tracker + schema automation (PostgreSQL, schedulers) that advanced shipment stages on document upload — minimized 60% manual tracking.
                             </li>
                             <li className="text-text-light text-[14px] sm:text-[15px] font-light leading-[1.75]">
                                 Designed Express → FastAPI extraction/mapping pipeline to convert customs docs into DB records (95% accuracy).
                             </li>
                             <li className="text-text-light text-[14px] sm:text-[15px] font-light leading-[1.75]">
-                                Built eBRC microservice with complete database architecture and scheduler workflows based on DGFT documentation for export compliance automation.
+                                Built eBRC (Electronic Bank Realization Certificate) microservice with complete database architecture and scheduler (automated batch status reconciliation) workflows based on DGFT documentation for export compliance automation.
                             </li>
                         </ul>
                     </li>
                     <li className="timeline-item">
-                        <h4 className="text-text-white text-[15px] sm:text-[16px] font-medium leading-[1.3] mb-2">Backend Developer — Learn-in-App API</h4>
-                        <span className="text-accent-dark text-[13px] sm:text-[14px] font-normal leading-[1.6] block mb-3">Freelance · Recent</span>
+                        <h4 className="text-text-white text-[15px] sm:text-[16px] font-medium leading-[1.3] mb-2">Backend Developer — Learn-in-App</h4>
+                        <span className="text-accent-dark text-[13px] sm:text-[14px] font-normal leading-[1.6] block mb-3">Aug 2024 – Dec 2024</span>
                         <ul className="space-y-2.5">
                             <li className="text-text-light text-[14px] sm:text-[15px] font-light leading-[1.75]">
                                 Built the complete test-management workflow — scheduling, question validation, approval cycles, and analytics — improving academic administration efficiency.
@@ -78,12 +78,12 @@ export default function Resume() {
 
                 <div className="surface-card p-6 sm:p-7">
                     <div className="space-y-6">
-                        <SkillBar label="TypeScript / Node.js" value={90} />
+                        <SkillBar label="TypeScript / Node.js" value={85} />
                         <SkillBar label="API Design & REST" value={88} />
-                        <SkillBar label="PostgreSQL / Database Design" value={85} />
-                        <SkillBar label="React.js" value={70} />
+                        <SkillBar label="PostgreSQL / Database Design" value={70} />
+                        <SkillBar label="React.js" value={55} />
                         <SkillBar label="Python" value={65} />
-                        <SkillBar label="AWS / Cloud" value={60} />
+                        <SkillBar label="AWS / Cloud" value={50} />
                     </div>
                 </div>
             </div>

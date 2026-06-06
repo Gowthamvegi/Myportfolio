@@ -2,8 +2,8 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
-// import Contact from './pages/Contact';
+// import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 import { useHashRoute } from './hooks/useHashRoute';
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
         return <About onNavigate={setActivePage} />;
       case 'Resume':
         return <Resume />;
-      case 'Portfolio':
-        return <Portfolio />;
-      // case 'Contact':
-      //   return <Contact />;
+      // case 'Portfolio':
+      //   return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
       default:
         return <About onNavigate={setActivePage} />;
     }

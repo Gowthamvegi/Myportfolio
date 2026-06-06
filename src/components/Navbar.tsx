@@ -5,7 +5,8 @@ interface NavbarProps {
     onPageChange: (page: PageKey) => void;
 }
 
-const navItems: PageKey[] = ['About', 'Resume', 'Portfolio'];
+// 'Portfolio' removed — using 'Contact' instead
+const navItems: PageKey[] = ['About', 'Resume', 'Contact'];
 
 export default function Navbar({ activePage, onPageChange }: NavbarProps) {
     return (
